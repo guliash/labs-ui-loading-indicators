@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:background="@color/black">
 
-    <ru.yandex.yamblz.indicators.SquaresIndicator
+    <ru.yandex.yamblz.indicators.TriangleIndicator
         android:id="@+id/circles_forward"
         android:layout_width="100dp"
         android:layout_height="100dp" />
