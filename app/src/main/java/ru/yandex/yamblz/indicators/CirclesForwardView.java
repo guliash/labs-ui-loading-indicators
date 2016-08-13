@@ -21,7 +21,7 @@ import ru.yandex.yamblz.R;
 public class CirclesForwardView extends View {
 
     private static final int DEFAULT_COLOR = Color.WHITE;
-    private static final long DEFAULT_DURATION = 2000;
+    private static final long DEFAULT_DURATION = 300;
     private static final float CIRCLE_FRACTION = 0.1f;
 
     private Paint mPaint;
@@ -31,6 +31,7 @@ public class CirclesForwardView extends View {
     private float mRadius;
     private long mDiagTime, mSideTime;
     private float mXup, mYup, mXdown, mYdown;
+    private float mRotate;
     private int mWidth, mHeight;
 
     public CirclesForwardView(Context context) {

@@ -5,10 +5,9 @@
     android:layout_height="match_parent"
     android:background="@color/black">
 
-    <ru.yandex.yamblz.indicators.CirclesForwardView
+    <ru.yandex.yamblz.indicators.SquaresIndicator
         android:id="@+id/circles_forward"
         android:layout_width="100dp"
-        android:layout_height="100dp"
-        custom:circleColor="@android:color/holo_green_dark"/>
+        android:layout_height="100dp" />
 
 </FrameLayout>
